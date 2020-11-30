@@ -1,0 +1,24 @@
+.root {
+  -fx-base: #474a56;
+  -fx-accent: gray ;
+  -fx-default-button: black;
+  -fx-focus-color: gray;
+  -fx-faint-focus-color: #039ed322;
+  -fx-focused-text-base-color : ladder(
+      -fx-selection-bar,
+      -fx-light-text-color 45%,
+      -fx-dark-text-color 46%,
+      -fx-dark-text-color 59%,
+      -fx-mid-text-color 60%
+  );
+  -fx-focused-mark-color : -fx-focused-text-base-color ;
+
+  -fx-font-family: verdana;
+}
+
+.box {
+  -fx-spacing: 20;
+  -fx-padding: 10;
+  -fx-background-color: black;
+  -fx-text-fill: #d3d5fd;
+}
