@@ -1,3 +1,12 @@
+## TO RUN:
+
+Add the following through maven:
+
+Junit: org.junit.jupiter:junit-jupiter-api:5.4.2
+
+TestFX: org.testfx:testfx-junit5:4.0.16-alpha
+
+
 simulation
 ====
 
